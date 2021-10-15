@@ -1,14 +1,7 @@
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
-
 body {
+	min-height: 10px;
+	font-family: "Ubuntu", sans-serif;
 	background: black;
-}
-
-p {
-	color: blue;
 }
 
 .postcard {
@@ -16,4 +9,59 @@ p {
 	height: 300px;
 	width: 400px;
 	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.postcard-body {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+img {
+	max-height: 60px;
+	max-width: 60px;
+	float: right;
+}
+
+h1 {
+	float: left;
+	width: 90%;
+	margin: 0%;
+	font-weight: bold;
+}
+
+.body-left {
+	padding: 5%;
+}
+
+.body-rigth {
+	padding: 5%;
+}
+
+p {
+	margin-top: 0%;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+input {
+	margin-top: 0%;
+	border-width: 1px;
+	border-color: grey;
+}
+
+.postcar-footer {
+	text-align: center;
+	padding: 10px;
+}
+
+button {
+	background-color: grey;
+	padding: 1%;
 }
