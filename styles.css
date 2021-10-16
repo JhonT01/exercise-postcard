@@ -1,3 +1,7 @@
+* {
+	min-height: 10px;
+}
+
 body {
 	min-height: 10px;
 	font-family: "Ubuntu", sans-serif;
@@ -32,36 +36,52 @@ img {
 h1 {
 	float: left;
 	width: 90%;
-	margin: 0%;
+	margin: 5%;
 	font-weight: bold;
 }
 
 .body-left {
-	padding: 5%;
+	padding: 0%;
+	height: auto;
+	width: auto;
 }
 
 .body-rigth {
-	padding: 5%;
+	padding: 0%;
+	height: auto;
+	width: auto;
 }
 
 p {
 	margin-top: 0%;
-	font-size: 1rem;
+	margin-left: 5%;
+	margin-right: 5%;
 	font-weight: normal;
 }
 
 input {
-	margin-top: 0%;
-	border-width: 1px;
-	border-color: grey;
+	font-size: 1.1rem;
+	font-weight: lighter;
+	margin-top: auto;
+	border-width: 2px;
+	border-top: hidden;
+	border-left: hidden;
+	border-right: hidden;
+	border-bottom: rgb(163, 163, 163);
+	text-decoration: underline;
 }
 
-.postcar-footer {
+.postcard-footer {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
-	padding: 10px;
 }
 
 button {
-	background-color: grey;
+	size-adjust: auto;
+	background-color: rgb(156, 156, 156);
 	padding: 1%;
+	margin: auto;
 }
